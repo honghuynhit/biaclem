@@ -5,7 +5,6 @@ export type MainStackParamList = {
 	Forms: undefined;
 	CleuHaroih: any;
 	Nice: undefined;
-	Section: undefined;
 	Avatar: any;
 	Details: any,
 };

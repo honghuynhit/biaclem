@@ -7,7 +7,6 @@ import CleuHaroih from "../screens/CleuHaroih";
 import Colors from "../screens/Colors";
 import Forms from "../screens/Forms";
 import Home from "../screens/Home";
-import Section from "../screens/Section";
 
 const MainStack = createStackNavigator();
 const Main = () => {
@@ -38,7 +37,6 @@ const Main = () => {
         <MainStack.Screen name="Buttons" component={Buttons} />
         <MainStack.Screen name="Colors" component={Colors} />
         <MainStack.Screen name="Forms" component={Forms} />
-        <MainStack.Screen name="Section" component={Section} />
         <MainStack.Screen name="Avatar" component={Avatar} />
       </MainStack.Navigator>
     </NavigationContainer>
