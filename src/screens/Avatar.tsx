@@ -1,21 +1,20 @@
 import { Ionicons } from "@expo/vector-icons";
 import { StackScreenProps } from "@react-navigation/stack";
 import React from "react";
-import { ImageBackground, StyleSheet, View } from "react-native";
+import { StyleSheet, View } from "react-native";
+import ImageSlider from 'react-native-image-slider';
 import {
   Layout, themeColor,
   TopNav, useTheme
 } from "react-native-rapi-ui";
 import { MainStackParamList } from "../types/navigation";
 
-
-
 export default function ({
   navigation, route
 }: StackScreenProps<MainStackParamList, "Avatar">) {
   const { isDarkmode, setTheme } = useTheme();
   const data_is = route.params ? route.params : {}
-  const image = { uri: data_is.url ? data_is.url : "https://httlvn.org/wp-content/uploads/2020/10/4d-scaled.jpg" };
+  const imageList = data_is.url ? data_is.url : ["https://httlvn.org/wp-content/uploads/2020/10/4d-scaled.jpg"]
   return (
     <Layout>
       <TopNav
@@ -44,8 +43,9 @@ export default function ({
         }}
       />
       <View style={styles.container}>
-        <ImageBackground source={image} resizeMode="cover" style={styles.image}>
-        </ImageBackground>
+        {/* <ImageBackground source={image} resizeMode="cover" style={styles.image}>
+        </ImageBackground> */}
+        <ImageSlider images={imageList} />
       </View>
 
     </Layout>
