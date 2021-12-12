@@ -56,6 +56,26 @@ export default function ({
             />
           </View>
         </TouchableOpacity>
+        <TouchableOpacity onPress={() => navigation.navigate("BauWaiKhonPadum")}>
+          <View style={styles.listItem}>
+            <Text fontWeight="medium">Bàu Waiq Khàn Padùm</Text>
+            <Ionicons
+              name="chevron-forward"
+              size={20}
+              color={isDarkmode ? themeColor.white : themeColor.black}
+            />
+          </View>
+        </TouchableOpacity>
+        <TouchableOpacity onPress={() => navigation.navigate("BauHnoiDaSuqDo")}>
+          <View style={styles.listItem}>
+            <Text fontWeight="medium">Bàu Hnŏ̀i Da Sùq Đô</Text>
+            <Ionicons
+              name="chevron-forward"
+              size={20}
+              color={isDarkmode ? themeColor.white : themeColor.black}
+            />
+          </View>
+        </TouchableOpacity>
       </ScrollView>
     </Layout>
   );

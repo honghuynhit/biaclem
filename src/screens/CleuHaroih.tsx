@@ -21,19 +21,19 @@ const styles = StyleSheet.create({
   },
 });
 const dataList = [
-  {
-    "id": -1,
-    "name": "Bau Waiq Khŏ̀n Padùm",
-    "url": [
-      "https://res.cloudinary.com/huynhga-cloudinary/image/upload/v1639287539/biaclem.com/caleu-hadroih/11_th4sgz.png", 
-      "https://res.cloudinary.com/huynhga-cloudinary/image/upload/v1639287542/biaclem.com/caleu-hadroih/12_gnvwgr.png"
-  ]
-  },
+  // {
+  //   "id": -1,
+  //   "name": "Bau Waiq Khŏ̀n Padùm",
+  //   "url": [
+  //     "https://res.cloudinary.com/huynhga-cloudinary/image/upload/v1639287539/biaclem.com/caleu-hadroih/11_th4sgz.png", 
+  //     "https://res.cloudinary.com/huynhga-cloudinary/image/upload/v1639287542/biaclem.com/caleu-hadroih/12_gnvwgr.png"
+  // ]
+  // },
   {
     "id": 0,
     "name": "Muc Luc",
     "url": [
-      "https://res.cloudinary.com/huynhga-cloudinary/image/upload/v1639287536/biaclem.com/caleu-hadroih/01_wm3tzk.png", 
+      "https://res.cloudinary.com/huynhga-cloudinary/image/upload/v1639287536/biaclem.com/caleu-hadroih/01_wm3tzk.png",
       "https://res.cloudinary.com/huynhga-cloudinary/image/upload/v1639287537/biaclem.com/caleu-hadroih/02_dtejew.png",
       "https://res.cloudinary.com/huynhga-cloudinary/image/upload/v1639287541/biaclem.com/caleu-hadroih/03_okqsee.png",
       "https://res.cloudinary.com/huynhga-cloudinary/image/upload/v1639287537/biaclem.com/caleu-hadroih/04_sto1sc.png",
@@ -43,14 +43,14 @@ const dataList = [
       "https://res.cloudinary.com/huynhga-cloudinary/image/upload/v1639287535/biaclem.com/caleu-hadroih/08_x1no0c.png",
       "https://res.cloudinary.com/huynhga-cloudinary/image/upload/v1639287538/biaclem.com/caleu-hadroih/09_vu3isz.png",
       "https://res.cloudinary.com/huynhga-cloudinary/image/upload/v1639287540/biaclem.com/caleu-hadroih/10_hjzhvm.png"
-  ]
+    ]
   },
   {
     "id": 1,
     "name": "Crŏng Diac Ma Gŏ̀h",
     "url": [
       "https://res.cloudinary.com/huynhga-cloudinary/image/upload/v1639287541/biaclem.com/caleu-hadroih/13_kpftsk.png",
-     "https://res.cloudinary.com/huynhga-cloudinary/image/upload/v1639287542/biaclem.com/caleu-hadroih/14_upmojc.jpg"
+      "https://res.cloudinary.com/huynhga-cloudinary/image/upload/v1639287542/biaclem.com/caleu-hadroih/14_upmojc.jpg"
     ]
   },
   {
@@ -75,7 +75,7 @@ const dataList = [
     "name": "Jò Au Ngan Long Pagat Malem",
     "url": [
       "https://res.cloudinary.com/huynhga-cloudinary/image/upload/v1639287555/biaclem.com/caleu-hadroih/20_r9xk12.jpg",
-  ]
+    ]
   },
   {
     "id": 5,
@@ -83,7 +83,7 @@ const dataList = [
     "url": [
       "https://res.cloudinary.com/huynhga-cloudinary/image/upload/v1639287555/biaclem.com/caleu-hadroih/21_aafvc9.jpg",
       "https://res.cloudinary.com/huynhga-cloudinary/image/upload/v1639287566/biaclem.com/caleu-hadroih/22_eaqdlm.jpg"
-  ]
+    ]
   },
   {
     "id": 6,
@@ -92,7 +92,7 @@ const dataList = [
       "https://res.cloudinary.com/huynhga-cloudinary/image/upload/v1639287550/biaclem.com/caleu-hadroih/23_ozmthl.jpg",
       "https://res.cloudinary.com/huynhga-cloudinary/image/upload/v1639287555/biaclem.com/caleu-hadroih/24_ym6amr.jpg",
       "https://res.cloudinary.com/huynhga-cloudinary/image/upload/v1639287552/biaclem.com/caleu-hadroih/25_febr6z.jpg",
-  ]
+    ]
   },
   {
     "id": 7,
@@ -108,7 +108,7 @@ const dataList = [
     "url": [
       "https://res.cloudinary.com/huynhga-cloudinary/image/upload/v1639287555/biaclem.com/caleu-hadroih/28_unsojv.jpg",
       "https://res.cloudinary.com/huynhga-cloudinary/image/upload/v1639287556/biaclem.com/caleu-hadroih/29_msu5we.jpg"
-  ]
+    ]
   }, {
     "id": 9,
     "name": "Au Loh Khoi Enh Tôi Au",
@@ -123,7 +123,7 @@ const dataList = [
     "url": [
       "https://res.cloudinary.com/huynhga-cloudinary/image/upload/v1639287535/biaclem.com/caleu-hadroih/32_o0kgii.jpg",
       "https://res.cloudinary.com/huynhga-cloudinary/image/upload/v1639287536/biaclem.com/caleu-hadroih/33_wzckhx.jpg"
-  ]
+    ]
   }
 ]
 
