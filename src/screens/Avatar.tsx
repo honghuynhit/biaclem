@@ -56,6 +56,7 @@ export default function ({
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    marginBottom: -130
   },
   image: {
     flex: 1,
@@ -68,5 +69,8 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
     textAlign: "center",
     backgroundColor: "#000000c0"
+  },
+  image_slider: {
+    paddingTop: 0
   }
 });
