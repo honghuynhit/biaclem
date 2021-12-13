@@ -11,7 +11,7 @@ import { MainStackParamList } from "../types/navigation";
 
 export default function ({
   navigation, route
-}: StackScreenProps<MainStackParamList, "Avatar">) {
+}: StackScreenProps<MainStackParamList, "ListCaleuHadroih">) {
   const { isDarkmode, setTheme } = useTheme();
   const data_is = route.params ? route.params : {}
   const imageList = data_is.url ? data_is.url : ["https://httlvn.org/wp-content/uploads/2020/10/4d-scaled.jpg"]
@@ -43,8 +43,6 @@ export default function ({
         }}
       />
       <View style={styles.container}>
-        {/* <ImageBackground source={image} resizeMode="cover" style={styles.image}>
-        </ImageBackground> */}
         <ImageSlider images={imageList} />
       </View>
 

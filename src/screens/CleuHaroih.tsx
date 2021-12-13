@@ -7,7 +7,6 @@ import {
   TopNav,
   useTheme
 } from "react-native-rapi-ui";
-// import { Avatar, Layout, Section, SectionContent, themeColor, TopNav, useTheme } from "react-native-rapi-ui";
 import { MainStackParamList } from "../types/navigation";
 const styles = StyleSheet.create({
   listItem: {
@@ -21,14 +20,6 @@ const styles = StyleSheet.create({
   },
 });
 const dataList = [
-  // {
-  //   "id": -1,
-  //   "name": "Bau Waiq Khŏ̀n Padùm",
-  //   "url": [
-  //     "https://res.cloudinary.com/huynhga-cloudinary/image/upload/v1639287539/biaclem.com/caleu-hadroih/11_th4sgz.png", 
-  //     "https://res.cloudinary.com/huynhga-cloudinary/image/upload/v1639287542/biaclem.com/caleu-hadroih/12_gnvwgr.png"
-  // ]
-  // },
   {
     "id": 0,
     "name": "Muc Luc",
@@ -172,7 +163,7 @@ export default function ({
             </Text>
 
             <TextInput
-              style={{ width: 100 }}
+              style={{ width: "100%" }}
               placeholder="Nhập số bài hát"
               value={valSearch}
               onChangeText={(val) => { handelSearch(val ? val : "") }}
@@ -201,7 +192,7 @@ export default function ({
       <ScrollView>
         {
           listData.map(r =>
-            <TouchableOpacity key={r.id} onPress={() => navigation.navigate("Avatar", r)}>
+            <TouchableOpacity key={r.id} onPress={() => navigation.navigate("ListCaleuHadroih", r)}>
               <Section style={{ marginTop: 20, marginHorizontal: 20 }}>
                 <SectionContent>
                   <View

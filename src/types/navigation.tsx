@@ -6,6 +6,6 @@ export type MainStackParamList = {
 	BauHnoiDaSuqDo: undefined;
 	CleuHaroih: any;
 	Nice: undefined;
-	Avatar: any;
+	ListCaleuHadroih: any;
 	Details: any,
 };

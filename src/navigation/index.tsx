@@ -1,13 +1,11 @@
 import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
 import React from "react";
-import Avatar from "../screens/Avatar";
 import BauHnoiDaSuqDo from "../screens/BauHnoiDaSuqDo";
 import BauWaiKhonPadum from "../screens/BauWaiKhonPadum";
-import Buttons from "../screens/Buttons";
 import CleuHaroih from "../screens/CleuHaroih";
-import Colors from "../screens/Colors";
 import Home from "../screens/Home";
+import ListCaleuHadroih from "../screens/ListCaleuHadroih";
 
 const MainStack = createStackNavigator();
 const Main = () => {
@@ -36,11 +34,9 @@ const Main = () => {
       >
         <MainStack.Screen name="Home" component={Home} />
         <MainStack.Screen name="CleuHaroih" component={CleuHaroih} />
-        <MainStack.Screen name="Buttons" component={Buttons} />
-        <MainStack.Screen name="Colors" component={Colors} />
         <MainStack.Screen name="BauWaiKhonPadum" component={BauWaiKhonPadum} />
         <MainStack.Screen name="BauHnoiDaSuqDo" component={BauHnoiDaSuqDo} />
-        <MainStack.Screen name="Avatar" component={Avatar} />
+        <MainStack.Screen name="ListCaleuHadroih" component={ListCaleuHadroih} />
       </MainStack.Navigator>
     </NavigationContainer>
   );
