@@ -159,12 +159,12 @@ export default function ({
         leftAction={() => navigation.goBack()}
         middleContent={
           <View>
-            <Text style={{ marginBottom: 0, paddingTop: 0, width: 300, height: 10 }}>
+            <Text style={{ marginBottom: 0, paddingTop: 0, width: 150, height: 5 }}>
             </Text>
 
             <TextInput
               style={{ width: "100%" }}
-              placeholder="Nhập số bài hát"
+              placeholder="Số bài hát"
               value={valSearch}
               onChangeText={(val) => { handelSearch(val ? val : "") }}
               rightContent={
